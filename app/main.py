@@ -1,7 +1,7 @@
 import os
 from fastapi import FastAPI
 
-app = FastAPI(title="Cloud Containers Lab", version="1.0")
+app = FastAPI(title="Cloud Containers Lab", version="2.0")
 
 @app.get("/")
 def index():
